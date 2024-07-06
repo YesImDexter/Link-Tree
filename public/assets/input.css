@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.outline-text-white {
+    @apply text-transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+
+.outline-text-black {
+    @apply text-transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+.gradient-text {
+    background: linear-gradient(to right, #8033ae, #dc297a, #fdc52a);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.link-buttons {
+    @apply inline-flex items-center h-auto font-extrabold px-1 indent-0;
+}
