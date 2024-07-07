@@ -8,8 +8,14 @@ module.exports = {
     extend: {
       fontFamily: {
         'poppins': ['Poppins', 'sans-serif'], // Ensuring sans-serif is the fallback
-        'noto-sans-sc': ['"Noto Sans SC"', 'sans-serif']
-      }
+        'noto-sans': ['"Noto Sans SC"', 'sans-serif'],
+        'Anton': ['"Anton SC"', 'sans-serif'],
+        'Libre-Barcode': ['"Anton SC"', 'system-ui'],
+        'Roboto': ['"Roboto"', 'sans-serif']
+      },
+      scale: {
+        '135': '1.35',
+      },
     },
   },
   plugins: [],
