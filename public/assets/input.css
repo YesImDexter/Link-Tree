@@ -14,13 +14,10 @@
     -webkit-text-stroke-color: black;
 }
 
-.gradient-text {
-    background: linear-gradient(to right, #8033ae, #dc297a, #fdc52a);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
 .link-buttons {
     @apply inline-flex items-center h-auto font-extrabold px-1 indent-0;
+}
+
+.scrolling-text span {
+    @apply font-bold font-Anton text-4xl;
 }
